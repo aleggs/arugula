@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060F5D7BF706F534CFDF63F7 /* Pods_Arugula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D4CFD57719AEB1C626C246 /* Pods_Arugula.framework */; };
+		218B74348A3C7999368C13F8 /* Pods_Arugula_ArugulaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D434ED6F52D0A830BA01E08C /* Pods_Arugula_ArugulaUITests.framework */; };
+		BEB16F888CDE22F1DCC5397C /* Pods_ArugulaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31D1C13E65A1D397EA2E522 /* Pods_ArugulaTests.framework */; };
+		FAE633482363F29E0003B4C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE633472363F29E0003B4C9 /* AppDelegate.swift */; };
+		FAE6334A2363F29E0003B4C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE633492363F29E0003B4C9 /* SceneDelegate.swift */; };
+		FAE6334C2363F29E0003B4C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6334B2363F29E0003B4C9 /* ViewController.swift */; };
+		FAE6334F2363F29E0003B4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE6334D2363F29E0003B4C9 /* Main.storyboard */; };
+		FAE633512363F2A00003B4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE633502363F2A00003B4C9 /* Assets.xcassets */; };
+		FAE633542363F2A00003B4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE633522363F2A00003B4C9 /* LaunchScreen.storyboard */; };
+		FAE6335F2363F2A00003B4C9 /* ArugulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6335E2363F2A00003B4C9 /* ArugulaTests.swift */; };
+		FAE6336A2363F2A10003B4C9 /* ArugulaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE633692363F2A10003B4C9 /* ArugulaUITests.swift */; };
+		FAE633782363F6D60003B4C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */; };
+		FAE633792363F6D60003B4C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */; };
+		FAE6337A2363F6D60003B4C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE6335B2363F2A00003B4C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE6333C2363F29E0003B4C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE633432363F29E0003B4C9;
+			remoteInfo = Arugula;
+		};
+		FAE633662363F2A10003B4C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE6333C2363F29E0003B4C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE633432363F29E0003B4C9;
+			remoteInfo = Arugula;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E133C64CCBF21329F86B02 /* Pods-Arugula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arugula.debug.xcconfig"; path = "Target Support Files/Pods-Arugula/Pods-Arugula.debug.xcconfig"; sourceTree = "<group>"; };
+		2F1E72F2D16E848DB823FCFB /* Pods-ArugulaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArugulaTests.release.xcconfig"; path = "Target Support Files/Pods-ArugulaTests/Pods-ArugulaTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FAAA5640D8AF9FA71A05823 /* Pods-ArugulaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArugulaTests.debug.xcconfig"; path = "Target Support Files/Pods-ArugulaTests/Pods-ArugulaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95D4CFD57719AEB1C626C246 /* Pods_Arugula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arugula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF59376FAB8568E6B453EB2 /* Pods-Arugula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arugula.release.xcconfig"; path = "Target Support Files/Pods-Arugula/Pods-Arugula.release.xcconfig"; sourceTree = "<group>"; };
+		D31D1C13E65A1D397EA2E522 /* Pods_ArugulaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArugulaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D434ED6F52D0A830BA01E08C /* Pods_Arugula_ArugulaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arugula_ArugulaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAF702F5B8709E1E1C44541 /* Pods-Arugula-ArugulaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arugula-ArugulaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E247AA11DB763251B2D48007 /* Pods-Arugula-ArugulaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arugula-ArugulaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE633442363F29E0003B4C9 /* Arugula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arugula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE633472363F29E0003B4C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE633492363F29E0003B4C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAE6334B2363F29E0003B4C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE6334E2363F29E0003B4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE633502363F2A00003B4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE633532363F2A00003B4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE633552363F2A00003B4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE6335A2363F2A00003B4C9 /* ArugulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArugulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE6335E2363F2A00003B4C9 /* ArugulaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArugulaTests.swift; sourceTree = "<group>"; };
+		FAE633602363F2A00003B4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE633652363F2A10003B4C9 /* ArugulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArugulaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE633692363F2A10003B4C9 /* ArugulaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArugulaUITests.swift; sourceTree = "<group>"; };
+		FAE6336B2363F2A10003B4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../cubhacks/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE633412363F29E0003B4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060F5D7BF706F534CFDF63F7 /* Pods_Arugula.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE633572363F2A00003B4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB16F888CDE22F1DCC5397C /* Pods_ArugulaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE633622363F2A10003B4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218B74348A3C7999368C13F8 /* Pods_Arugula_ArugulaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A70280BD788073E7176C45B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18E133C64CCBF21329F86B02 /* Pods-Arugula.debug.xcconfig */,
+				CDF59376FAB8568E6B453EB2 /* Pods-Arugula.release.xcconfig */,
+				E247AA11DB763251B2D48007 /* Pods-Arugula-ArugulaUITests.debug.xcconfig */,
+				DCAF702F5B8709E1E1C44541 /* Pods-Arugula-ArugulaUITests.release.xcconfig */,
+				3FAAA5640D8AF9FA71A05823 /* Pods-ArugulaTests.debug.xcconfig */,
+				2F1E72F2D16E848DB823FCFB /* Pods-ArugulaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A407F3D47CD92E045E75D1A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95D4CFD57719AEB1C626C246 /* Pods_Arugula.framework */,
+				D434ED6F52D0A830BA01E08C /* Pods_Arugula_ArugulaUITests.framework */,
+				D31D1C13E65A1D397EA2E522 /* Pods_ArugulaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE6333B2363F29E0003B4C9 = {
+			isa = PBXGroup;
+			children = (
+				FAE633462363F29E0003B4C9 /* Arugula */,
+				FAE6335D2363F2A00003B4C9 /* ArugulaTests */,
+				FAE633682363F2A10003B4C9 /* ArugulaUITests */,
+				FAE633452363F29E0003B4C9 /* Products */,
+				8A70280BD788073E7176C45B /* Pods */,
+				A407F3D47CD92E045E75D1A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE633452363F29E0003B4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE633442363F29E0003B4C9 /* Arugula.app */,
+				FAE6335A2363F2A00003B4C9 /* ArugulaTests.xctest */,
+				FAE633652363F2A10003B4C9 /* ArugulaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE633462363F29E0003B4C9 /* Arugula */ = {
+			isa = PBXGroup;
+			children = (
+				FAE633472363F29E0003B4C9 /* AppDelegate.swift */,
+				FAE633492363F29E0003B4C9 /* SceneDelegate.swift */,
+				FAE6334B2363F29E0003B4C9 /* ViewController.swift */,
+				FAE6334D2363F29E0003B4C9 /* Main.storyboard */,
+				FAE633502363F2A00003B4C9 /* Assets.xcassets */,
+				FAE633522363F2A00003B4C9 /* LaunchScreen.storyboard */,
+				FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */,
+				FAE633552363F2A00003B4C9 /* Info.plist */,
+			);
+			path = Arugula;
+			sourceTree = "<group>";
+		};
+		FAE6335D2363F2A00003B4C9 /* ArugulaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6335E2363F2A00003B4C9 /* ArugulaTests.swift */,
+				FAE633602363F2A00003B4C9 /* Info.plist */,
+			);
+			path = ArugulaTests;
+			sourceTree = "<group>";
+		};
+		FAE633682363F2A10003B4C9 /* ArugulaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE633692363F2A10003B4C9 /* ArugulaUITests.swift */,
+				FAE6336B2363F2A10003B4C9 /* Info.plist */,
+			);
+			path = ArugulaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE633432363F29E0003B4C9 /* Arugula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE6336E2363F2A10003B4C9 /* Build configuration list for PBXNativeTarget "Arugula" */;
+			buildPhases = (
+				BE9A12AF01CC853B9B710804 /* [CP] Check Pods Manifest.lock */,
+				FAE633402363F29E0003B4C9 /* Sources */,
+				FAE633412363F29E0003B4C9 /* Frameworks */,
+				FAE633422363F29E0003B4C9 /* Resources */,
+				7F161B4C7DE22CF0FE58DCA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arugula;
+			productName = Arugula;
+			productReference = FAE633442363F29E0003B4C9 /* Arugula.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE633592363F2A00003B4C9 /* ArugulaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE633712363F2A10003B4C9 /* Build configuration list for PBXNativeTarget "ArugulaTests" */;
+			buildPhases = (
+				99D4BC75BFE2C47F6ACEFF16 /* [CP] Check Pods Manifest.lock */,
+				FAE633562363F2A00003B4C9 /* Sources */,
+				FAE633572363F2A00003B4C9 /* Frameworks */,
+				FAE633582363F2A00003B4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE6335C2363F2A00003B4C9 /* PBXTargetDependency */,
+			);
+			name = ArugulaTests;
+			productName = ArugulaTests;
+			productReference = FAE6335A2363F2A00003B4C9 /* ArugulaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE633642363F2A10003B4C9 /* ArugulaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE633742363F2A10003B4C9 /* Build configuration list for PBXNativeTarget "ArugulaUITests" */;
+			buildPhases = (
+				B091A508C75B3F3B8B7873D6 /* [CP] Check Pods Manifest.lock */,
+				FAE633612363F2A10003B4C9 /* Sources */,
+				FAE633622363F2A10003B4C9 /* Frameworks */,
+				FAE633632363F2A10003B4C9 /* Resources */,
+				A8028A96C12CCE59BAB533C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE633672363F2A10003B4C9 /* PBXTargetDependency */,
+			);
+			name = ArugulaUITests;
+			productName = ArugulaUITests;
+			productReference = FAE633652363F2A10003B4C9 /* ArugulaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE6333C2363F29E0003B4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Arugula;
+				TargetAttributes = {
+					FAE633432363F29E0003B4C9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					FAE633592363F2A00003B4C9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FAE633432363F29E0003B4C9;
+					};
+					FAE633642363F2A10003B4C9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FAE633432363F29E0003B4C9;
+					};
+				};
+			};
+			buildConfigurationList = FAE6333F2363F29E0003B4C9 /* Build configuration list for PBXProject "Arugula" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE6333B2363F29E0003B4C9;
+			productRefGroup = FAE633452363F29E0003B4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE633432363F29E0003B4C9 /* Arugula */,
+				FAE633592363F2A00003B4C9 /* ArugulaTests */,
+				FAE633642363F2A10003B4C9 /* ArugulaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE633422363F29E0003B4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE633542363F2A00003B4C9 /* LaunchScreen.storyboard in Resources */,
+				FAE633782363F6D60003B4C9 /* GoogleService-Info.plist in Resources */,
+				FAE633512363F2A00003B4C9 /* Assets.xcassets in Resources */,
+				FAE6334F2363F29E0003B4C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE633582363F2A00003B4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE633792363F6D60003B4C9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE633632363F2A10003B4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6337A2363F6D60003B4C9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F161B4C7DE22CF0FE58DCA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arugula/Pods-Arugula-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arugula/Pods-Arugula-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arugula/Pods-Arugula-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D4BC75BFE2C47F6ACEFF16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArugulaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8028A96C12CCE59BAB533C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B091A508C75B3F3B8B7873D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arugula-ArugulaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9A12AF01CC853B9B710804 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arugula-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE633402363F29E0003B4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6334C2363F29E0003B4C9 /* ViewController.swift in Sources */,
+				FAE633482363F29E0003B4C9 /* AppDelegate.swift in Sources */,
+				FAE6334A2363F29E0003B4C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE633562363F2A00003B4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6335F2363F2A00003B4C9 /* ArugulaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE633612363F2A10003B4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6336A2363F2A10003B4C9 /* ArugulaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE6335C2363F2A00003B4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE633432363F29E0003B4C9 /* Arugula */;
+			targetProxy = FAE6335B2363F2A00003B4C9 /* PBXContainerItemProxy */;
+		};
+		FAE633672363F2A10003B4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE633432363F29E0003B4C9 /* Arugula */;
+			targetProxy = FAE633662363F2A10003B4C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE6334D2363F29E0003B4C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE6334E2363F29E0003B4C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE633522363F2A00003B4C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE633532363F2A00003B4C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE6336C2363F2A10003B4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE6336D2363F2A10003B4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE6336F2363F2A10003B4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E133C64CCBF21329F86B02 /* Pods-Arugula.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Arugula/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arugula.Arugula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAE633702363F2A10003B4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF59376FAB8568E6B453EB2 /* Pods-Arugula.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Arugula/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arugula.Arugula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FAE633722363F2A10003B4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAAA5640D8AF9FA71A05823 /* Pods-ArugulaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArugulaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arugula.ArugulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arugula.app/Arugula";
+			};
+			name = Debug;
+		};
+		FAE633732363F2A10003B4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1E72F2D16E848DB823FCFB /* Pods-ArugulaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArugulaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arugula.ArugulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arugula.app/Arugula";
+			};
+			name = Release;
+		};
+		FAE633752363F2A10003B4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E247AA11DB763251B2D48007 /* Pods-Arugula-ArugulaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArugulaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arugula.ArugulaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arugula;
+			};
+			name = Debug;
+		};
+		FAE633762363F2A10003B4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCAF702F5B8709E1E1C44541 /* Pods-Arugula-ArugulaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArugulaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arugula.ArugulaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arugula;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE6333F2363F29E0003B4C9 /* Build configuration list for PBXProject "Arugula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE6336C2363F2A10003B4C9 /* Debug */,
+				FAE6336D2363F2A10003B4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE6336E2363F2A10003B4C9 /* Build configuration list for PBXNativeTarget "Arugula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE6336F2363F2A10003B4C9 /* Debug */,
+				FAE633702363F2A10003B4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE633712363F2A10003B4C9 /* Build configuration list for PBXNativeTarget "ArugulaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE633722363F2A10003B4C9 /* Debug */,
+				FAE633732363F2A10003B4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE633742363F2A10003B4C9 /* Build configuration list for PBXNativeTarget "ArugulaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE633752363F2A10003B4C9 /* Debug */,
+				FAE633762363F2A10003B4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE6333C2363F29E0003B4C9 /* Project object */;
+}
