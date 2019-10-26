@@ -7,7 +7,7 @@ target 'Arugula' do
 
   # Pods for Arugula
   pod 'Firebase/Analytics'
- 
+  pod 'FirebaseUI'
 
   target 'ArugulaTests' do
     inherit! :search_paths

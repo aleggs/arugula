@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -105,7 +105,6 @@
 				3FAAA5640D8AF9FA71A05823 /* Pods-ArugulaTests.debug.xcconfig */,
 				2F1E72F2D16E848DB823FCFB /* Pods-ArugulaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +185,7 @@
 				FAE633412363F29E0003B4C9 /* Frameworks */,
 				FAE633422363F29E0003B4C9 /* Resources */,
 				7F161B4C7DE22CF0FE58DCA0 /* [CP] Embed Pods Frameworks */,
+				129F9E14C820048091ADFAA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +224,7 @@
 				FAE633622363F2A10003B4C9 /* Frameworks */,
 				FAE633632363F2A10003B4C9 /* Resources */,
 				A8028A96C12CCE59BAB533C9 /* [CP] Embed Pods Frameworks */,
+				31B8101E5BA38816C8D5B700 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,6 +310,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		129F9E14C820048091ADFAA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arugula/Pods-Arugula-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arugula/Pods-Arugula-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arugula/Pods-Arugula-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31B8101E5BA38816C8D5B700 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7F161B4C7DE22CF0FE58DCA0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
