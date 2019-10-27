@@ -1,0 +1,91 @@
+body {
+  margin:0;
+  font-family: 'Karla', sans-serif;
+}
+
+#home {
+  height: 90vh;
+  background-color: #F2F2F2;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  margin:0;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 100px;
+  font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  line-height: 20vh;
+  font-size: 60px;
+  font-family: 'Rubik', sans-serif;
+}
+
+#about {
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 60%;
+  line-height: 40px;
+  font-size: 26px;
+}
+
+.column {
+  flex: 31%;
+  max-width: 33.33%;
+  padding: 1% 1%;
+}
+
+.column img {
+  width: 100%;
+  margin-top: 2.5%;
+}
+
+.headercol {
+  height: 90vh;
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 0.5%;
+}
+
+.sectionHeader{
+  height: 20vh;
+  padding: 0 0.5%;
+  background-color: #F2F2F2;
+}
+
+#profile {
+  height: 90vh;
+  max-width: 50%;
+  flex: 50%;
+  background-image: url('ProfilePic.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.grid {
+  display: flex;
+  margin: 1.5%;
+}
+
+#experience {
+  margin-top: 1.5%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
