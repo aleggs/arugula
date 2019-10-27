@@ -13,6 +13,7 @@
 		FA02E07B2364577E0064D0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */; };
 		FA02E07C2364577E0064D0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */; };
 		FA02E07D2364577E0064D0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */; };
+		FA3989B42365A98C008FBF7F /* Spinach.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3989B32365A98C008FBF7F /* Spinach.png */; };
 		FA5D723523654B68002E3C38 /* StaticShadowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D722423654B62002E3C38 /* StaticShadowHeaderView.swift */; };
 		FA5D723623654B68002E3C38 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D722523654B63002E3C38 /* NibView.swift */; };
 		FA5D723723654B68002E3C38 /* SwipeableCardViewCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5D722623654B63002E3C38 /* SwipeableCardViewCard.xib */; };
@@ -70,6 +71,7 @@
 		DCAF702F5B8709E1E1C44541 /* Pods-Arugula-ArugulaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arugula-ArugulaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E247AA11DB763251B2D48007 /* Pods-Arugula-ArugulaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arugula-ArugulaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA3989B32365A98C008FBF7F /* Spinach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spinach.png; sourceTree = "<group>"; };
 		FA5D722423654B62002E3C38 /* StaticShadowHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView.swift; sourceTree = "<group>"; };
 		FA5D722523654B63002E3C38 /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
 		FA5D722623654B63002E3C38 /* SwipeableCardViewCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeableCardViewCard.xib; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				FAE633522363F2A00003B4C9 /* LaunchScreen.storyboard */,
 				FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */,
 				FAE633552363F2A00003B4C9 /* Info.plist */,
+				FA3989B32365A98C008FBF7F /* Spinach.png */,
 				FA8CF2DD236506EA00978F36 /* Spinach.jpg */,
 				FA8CF2E12365132C00978F36 /* Spinach copy.jpg */,
 			);
@@ -343,6 +346,7 @@
 			files = (
 				FA8CF2E22365132C00978F36 /* Spinach copy.jpg in Resources */,
 				FA5D724123654B68002E3C38 /* SampleSwipeableCard.xib in Resources */,
+				FA3989B42365A98C008FBF7F /* Spinach.png in Resources */,
 				FAE633542363F2A00003B4C9 /* LaunchScreen.storyboard in Resources */,
 				FA02E07B2364577E0064D0BF /* GoogleService-Info.plist in Resources */,
 				FA8CF2DE236506EA00978F36 /* Spinach.jpg in Resources */,
