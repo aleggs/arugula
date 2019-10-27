@@ -88,37 +88,33 @@ extension ViewController {
 
     var viewModels: [SampleSwipeableCellViewModel] {
 
-        let hamburger = SampleSwipeableCellViewModel(title: "McDonalds",
-                                                     subtitle: "Hamburger",
-                                                     color: UIColor(red:0.96, green:0.81, blue:0.46, alpha:1.0),
-                                                     image: #imageLiteral(resourceName: "hamburger"))
+        let abeLincoln = SampleSwipeableCellViewModel(title: "Abe Lincoln",
+                                                     subtitle: "Spanish beginner :)",
+                                                     color: UIColor(red:0.2, green:0.61, blue:0.31, alpha:1.0),
+                                                     image: #imageLiteral(resourceName: "abeLincoln"))
 
-        let panda = SampleSwipeableCellViewModel(title: "Panda",
-                                                  subtitle: "Animal",
-                                                  color: UIColor(red:0.29, green:0.64, blue:0.96, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "panda"))
+        let johnDenero = SampleSwipeableCellViewModel(title: "John Denero",
+                                                  subtitle: "Python, expert",
+                                                  color: UIColor(red:0.3, green:0.64, blue:0.45, alpha:1.0),
+                                                  image: #imageLiteral(resourceName: "johnDenero"))
 
-        let puppy = SampleSwipeableCellViewModel(title: "Puppy",
-                                                  subtitle: "Pet",
-                                                  color: UIColor(red:0.29, green:0.63, blue:0.49, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "puppy"))
+        let thomasJefferson = SampleSwipeableCellViewModel(title: "TJ",
+                                                  subtitle: "French, expert",
+                                                  color: UIColor(red:0.3, green:0.85, blue:0.49, alpha:1.0),
+                                                  image: #imageLiteral(resourceName: "thomasJefferson"))
 
-        let poop = SampleSwipeableCellViewModel(title: "Poop",
-                                                  subtitle: "Smelly",
-                                                  color: UIColor(red:0.69, green:0.52, blue:0.38, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "poop"))
+        let johnAdams = SampleSwipeableCellViewModel(title: "John Adams",
+                                                  subtitle: "Spanish beginner :O",
+                                                  color: UIColor(red:0.3, green:0.52, blue:0.38, alpha:1.0),
+                                                  image: #imageLiteral(resourceName: "johnAdams"))
 
-        let robot = SampleSwipeableCellViewModel(title: "Robot",
-                                                  subtitle: "Future",
-                                                  color: UIColor(red:0.90, green:0.99, blue:0.97, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "robot"))
+        let georgeWashington = SampleSwipeableCellViewModel(title: "George Washington",
+                                                  subtitle: "Diplomacy expert",
+                                                  color: UIColor(red:0.30, green:0.99, blue:0.6, alpha:1.0),
+                                                  image: #imageLiteral(resourceName: "georgeWashington"))
 
-        let clown = SampleSwipeableCellViewModel(title: "Clown",
-                                                  subtitle: "Scary",
-                                                  color: UIColor(red:0.83, green:0.82, blue:0.69, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "clown"))
 
-        return [hamburger, panda, puppy, poop, robot, clown]
+        return [abeLincoln, johnDenero, thomasJefferson, johnAdams, georgeWashington]
     }
 
 }

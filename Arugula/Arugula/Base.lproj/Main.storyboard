@@ -129,6 +129,7 @@
                                 <color key="backgroundColor" red="0.47843137250000001" green="0.72941176470000002" blue="0.35294117650000001" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="WcD-Iw-WgL"/>
+                                    <constraint firstAttribute="width" constant="414" id="f0j-Hk-a9d"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -137,7 +138,7 @@
                                 </state>
                                 <connections>
                                     <action selector="LoginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6MO-JM-6ZU"/>
-                                    <segue destination="jvI-o7-PqH" kind="show" id="EAr-3l-2aM"/>
+                                    <segue destination="h8z-8c-TML" kind="show" id="0Fg-fv-b4u"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -164,16 +165,16 @@
             </objects>
             <point key="canvasLocation" x="827.536231884058" y="67.633928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Match-->
         <scene sceneID="KQh-Yh-rYn">
             <objects>
-                <viewController id="jvI-o7-PqH" customClass="ViewController" customModule="Arugula" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tR6-AD-fGY" customClass="SwipeableCardViewContainer" customModule="Arugula" customModuleProvider="target">
+                <viewController title="Match" modalPresentationStyle="fullScreen" id="jvI-o7-PqH" customClass="ViewController" customModule="Arugula" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tR6-AD-fGY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tTy-w6-5pp" customClass="SwipeableCardViewContainer" customModule="Arugula" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="754"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
@@ -186,67 +187,74 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bny-vo-wQD"/>
                     </view>
-                    <navigationItem key="navigationItem" id="idZ-yX-vHZ"/>
+                    <tabBarItem key="tabBarItem" title="" image="eye.fill" catalog="system" id="fqd-uj-RVo"/>
                     <connections>
                         <outlet property="swipeableCardView" destination="tTy-w6-5pp" id="qhU-F5-sDn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvL-6W-TPa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1581.1594202898552" y="64.955357142857139"/>
+            <point key="canvasLocation" x="827.536231884058" y="859.82142857142856"/>
         </scene>
-        <!--Item 2-->
+        <!--View Controller-->
         <scene sceneID="9uB-gL-1Zp">
             <objects>
-                <viewController id="Av0-16-wnd" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Av0-16-wnd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDR-hl-xQc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="fkS-8V-Rf0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="gor-uv-JB9"/>
+                    <tabBarItem key="tabBarItem" title="" image="message.fill" catalog="system" selectedImage="message.fill" id="gor-uv-JB9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qo7-Uz-eIm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1848" y="-609"/>
+            <point key="canvasLocation" x="2328" y="551"/>
         </scene>
-        <!--Item 1-->
+        <!--View Controller-->
         <scene sceneID="DWn-hp-Z4i">
             <objects>
-                <viewController id="B8z-5Z-XMA" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="B8z-5Z-XMA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c1o-x8-k7c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="7cp-d9-tLM"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="haI-ch-1hQ"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.fill" catalog="system" id="haI-ch-1hQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OWO-XK-mEt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2249" y="25"/>
+            <point key="canvasLocation" x="2328" y="-120"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="s49-P7-FwK">
             <objects>
-                <tabBarController id="h8z-8c-TML" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="h8z-8c-TML" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="YEi-vw-7rs"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OsT-9S-D4g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.48841502570000001" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="B8z-5Z-XMA" kind="relationship" relationship="viewControllers" id="agK-sO-TZL"/>
-                        <segue destination="Av0-16-wnd" kind="relationship" relationship="viewControllers" id="161-f0-Oji"/>
+                        <segue destination="jvI-o7-PqH" kind="relationship" relationship="viewControllers" id="wZq-xA-ga4"/>
+                        <segue destination="Av0-16-wnd" kind="relationship" relationship="viewControllers" id="Hc6-LW-Bo1"/>
+                        <segue destination="B8z-5Z-XMA" kind="relationship" relationship="viewControllers" id="fVq-1g-Npe"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HeL-pd-SLc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2249" y="25"/>
+            <point key="canvasLocation" x="1564" y="-19"/>
         </scene>
     </scenes>
     <resources>
         <image name="Spinach.png" width="120" height="105.59999847412109"/>
+        <image name="eye.fill" catalog="system" width="64" height="38"/>
+        <image name="message.fill" catalog="system" width="64" height="56"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
     </resources>
+    <color key="tintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.48841502570000001" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
