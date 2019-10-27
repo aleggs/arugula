@@ -7,50 +7,55 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--toWelcome-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Arugula" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="toWelcome" id="BYZ-38-t0r" customClass="ViewController" customModule="Arugula" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Zjg-Kj-qpi">
-                                <rect key="frame" x="60" y="661" width="294" height="201"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="F66-6j-5jL">
+                                <rect key="frame" x="0.0" y="594" width="414" height="198"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afo-EI-iAc">
-                                        <rect key="frame" x="48" y="0.0" width="199" height="96"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                        <state key="normal" title="Sign In"/>
-                                        <connections>
-                                            <action selector="LoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R79-5U-YLv"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arugula" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ix3-Lb-YEP">
-                                        <rect key="frame" x="25" y="111" width="244" height="90"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="75"/>
-                                        <nil key="textColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arugula" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59q-uP-0Gc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="78"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="60"/>
+                                        <color key="textColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.48841502570000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5q-2S-2OI">
+                                        <rect key="frame" x="0.0" y="98" width="414" height="100"/>
+                                        <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.4884150256849315" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="92F-kL-aoX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="LoginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z7U-7r-zyh"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="ix3-Lb-YEP" secondAttribute="bottom" id="7vB-hg-DYk"/>
-                                    <constraint firstAttribute="trailing" secondItem="ix3-Lb-YEP" secondAttribute="trailing" constant="25" id="ToH-9l-IDY"/>
-                                    <constraint firstItem="ix3-Lb-YEP" firstAttribute="leading" secondItem="Zjg-Kj-qpi" secondAttribute="leading" constant="25" id="TzP-nW-5cc"/>
-                                    <constraint firstAttribute="bottom" secondItem="ix3-Lb-YEP" secondAttribute="bottom" constant="20" id="XCG-v2-AEe"/>
-                                    <constraint firstItem="ix3-Lb-YEP" firstAttribute="leading" secondItem="Zjg-Kj-qpi" secondAttribute="leading" id="YUH-Jx-eSe"/>
-                                    <constraint firstAttribute="trailing" secondItem="ix3-Lb-YEP" secondAttribute="trailing" id="mWY-bW-f30"/>
-                                </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Spinach copy.jpg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1m-Kz-be7">
+                                <rect key="frame" x="36" y="44" width="378" height="435"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Zjg-Kj-qpi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ljW-4K-ske"/>
+                            <constraint firstItem="F66-6j-5jL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8cF-AW-2Wd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F66-6j-5jL" secondAttribute="trailing" id="8rd-CE-lJd"/>
+                            <constraint firstItem="F66-6j-5jL" firstAttribute="top" secondItem="E1m-Kz-be7" secondAttribute="bottom" constant="10" id="afw-i0-SBm"/>
+                            <constraint firstAttribute="trailing" secondItem="E1m-Kz-be7" secondAttribute="trailing" id="twy-fk-9Tr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="XBR-p4-0gS" kind="show" identifier="GoHome" id="3Yp-2c-quN"/>
+                        <segue destination="XBR-p4-0gS" kind="show" identifier="toWelcome" id="Aq7-Hf-FwI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -65,10 +70,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign In Screen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siW-Pw-vFL">
-                                <rect key="frame" x="40" y="104" width="335" height="224"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zvq-9h-1Pa">
+                                <rect key="frame" x="159" y="86" width="129" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -83,4 +88,7 @@
             <point key="canvasLocation" x="857.97101449275374" y="63.616071428571423"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Spinach copy.jpg" width="90.720001220703125" height="104.40000152587891"/>
+    </resources>
 </document>

@@ -10,6 +10,11 @@
 		060F5D7BF706F534CFDF63F7 /* Pods_Arugula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D4CFD57719AEB1C626C246 /* Pods_Arugula.framework */; };
 		218B74348A3C7999368C13F8 /* Pods_Arugula_ArugulaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D434ED6F52D0A830BA01E08C /* Pods_Arugula_ArugulaUITests.framework */; };
 		BEB16F888CDE22F1DCC5397C /* Pods_ArugulaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31D1C13E65A1D397EA2E522 /* Pods_ArugulaTests.framework */; };
+		FA02E07B2364577E0064D0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */; };
+		FA02E07C2364577E0064D0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */; };
+		FA02E07D2364577E0064D0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */; };
+		FA8CF2DE236506EA00978F36 /* Spinach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8CF2DD236506EA00978F36 /* Spinach.jpg */; };
+		FA8CF2E22365132C00978F36 /* Spinach copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8CF2E12365132C00978F36 /* Spinach copy.jpg */; };
 		FAE633482363F29E0003B4C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE633472363F29E0003B4C9 /* AppDelegate.swift */; };
 		FAE6334A2363F29E0003B4C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE633492363F29E0003B4C9 /* SceneDelegate.swift */; };
 		FAE6334C2363F29E0003B4C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6334B2363F29E0003B4C9 /* ViewController.swift */; };
@@ -18,9 +23,6 @@
 		FAE633542363F2A00003B4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE633522363F2A00003B4C9 /* LaunchScreen.storyboard */; };
 		FAE6335F2363F2A00003B4C9 /* ArugulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6335E2363F2A00003B4C9 /* ArugulaTests.swift */; };
 		FAE6336A2363F2A10003B4C9 /* ArugulaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE633692363F2A10003B4C9 /* ArugulaUITests.swift */; };
-		FAE633782363F6D60003B4C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */; };
-		FAE633792363F6D60003B4C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */; };
-		FAE6337A2363F6D60003B4C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		D434ED6F52D0A830BA01E08C /* Pods_Arugula_ArugulaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arugula_ArugulaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAF702F5B8709E1E1C44541 /* Pods-Arugula-ArugulaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arugula-ArugulaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E247AA11DB763251B2D48007 /* Pods-Arugula-ArugulaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arugula-ArugulaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Arugula-ArugulaUITests/Pods-Arugula-ArugulaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA8CF2DD236506EA00978F36 /* Spinach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spinach.jpg; sourceTree = "<group>"; };
+		FA8CF2E12365132C00978F36 /* Spinach copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spinach copy.jpg"; sourceTree = "<group>"; };
 		FAE633442363F29E0003B4C9 /* Arugula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arugula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE633472363F29E0003B4C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE633492363F29E0003B4C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +69,6 @@
 		FAE633652363F2A10003B4C9 /* ArugulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArugulaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE633692363F2A10003B4C9 /* ArugulaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArugulaUITests.swift; sourceTree = "<group>"; };
 		FAE6336B2363F2A10003B4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../cubhacks/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +153,10 @@
 				FAE6334D2363F29E0003B4C9 /* Main.storyboard */,
 				FAE633502363F2A00003B4C9 /* Assets.xcassets */,
 				FAE633522363F2A00003B4C9 /* LaunchScreen.storyboard */,
-				FAE633772363F6D60003B4C9 /* GoogleService-Info.plist */,
+				FA02E07A2364577E0064D0BF /* GoogleService-Info.plist */,
 				FAE633552363F2A00003B4C9 /* Info.plist */,
+				FA8CF2DD236506EA00978F36 /* Spinach.jpg */,
+				FA8CF2E12365132C00978F36 /* Spinach copy.jpg */,
 			);
 			path = Arugula;
 			sourceTree = "<group>";
@@ -284,8 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8CF2E22365132C00978F36 /* Spinach copy.jpg in Resources */,
 				FAE633542363F2A00003B4C9 /* LaunchScreen.storyboard in Resources */,
-				FAE633782363F6D60003B4C9 /* GoogleService-Info.plist in Resources */,
+				FA02E07B2364577E0064D0BF /* GoogleService-Info.plist in Resources */,
+				FA8CF2DE236506EA00978F36 /* Spinach.jpg in Resources */,
 				FAE633512363F2A00003B4C9 /* Assets.xcassets in Resources */,
 				FAE6334F2363F29E0003B4C9 /* Main.storyboard in Resources */,
 			);
@@ -295,7 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE633792363F6D60003B4C9 /* GoogleService-Info.plist in Resources */,
+				FA02E07C2364577E0064D0BF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE6337A2363F6D60003B4C9 /* GoogleService-Info.plist in Resources */,
+				FA02E07D2364577E0064D0BF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
