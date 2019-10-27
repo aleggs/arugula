@@ -110,13 +110,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTy-w6-5pp" customClass="SwipeableCardViewContainer" customModule="Arugula" customModuleProvider="target">
-                                <rect key="frame" x="70" y="224" width="275" height="219"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tTy-w6-5pp" customClass="SwipeableCardViewContainer" customModule="Arugula" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bny-vo-wQD" firstAttribute="bottom" secondItem="tTy-w6-5pp" secondAttribute="bottom" id="SJG-4O-kVn"/>
+                            <constraint firstItem="tTy-w6-5pp" firstAttribute="leading" secondItem="bny-vo-wQD" secondAttribute="leading" id="Z8D-N5-BqW"/>
+                            <constraint firstItem="tTy-w6-5pp" firstAttribute="top" secondItem="bny-vo-wQD" secondAttribute="top" id="fQK-9H-iay"/>
+                            <constraint firstItem="bny-vo-wQD" firstAttribute="trailing" secondItem="tTy-w6-5pp" secondAttribute="trailing" id="fh0-2A-tTm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bny-vo-wQD"/>
                     </view>
                     <navigationItem key="navigationItem" id="idZ-yX-vHZ"/>
@@ -127,21 +132,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvL-6W-TPa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1581.1594202898552" y="64.955357142857139"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="969-SL-C66">
-            <objects>
-                <viewController id="1Dx-sB-nt3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ahm-zg-OeR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="bzd-PR-g5a"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x9m-Q2-hUC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="951" y="713"/>
         </scene>
     </scenes>
     <resources>
