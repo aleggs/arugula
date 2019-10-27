@@ -1,4 +1,4 @@
-# Argulua
+# Arugula
 
 ## How to Run
 - clone the repository 
