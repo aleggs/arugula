@@ -77,6 +77,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovA-ok-Km3">
+                                <rect key="frame" x="178" y="255" width="165" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="To Swipeable"/>
+                                <connections>
+                                    <action selector="ToSwipeable:" destination="7Ue-9d-gnA" eventType="touchUpInside" id="H1O-n1-s4y"/>
+                                    <segue destination="jvI-o7-PqH" kind="show" id="uy8-hg-ZZh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAw-Wf-QgV">
+                                <rect key="frame" x="216" y="436" width="144" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="To Tab Bar Controller"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="URu-Yy-HN9"/>
@@ -84,8 +98,50 @@
                     <navigationItem key="navigationItem" id="Q91-SL-n5b"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HhM-NH-YCP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="7Ue-9d-gnA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="857.97101449275374" y="63.616071428571423"/>
+            <point key="canvasLocation" x="827.536231884058" y="67.633928571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KQh-Yh-rYn">
+            <objects>
+                <viewController id="jvI-o7-PqH" customClass="ViewController" customModule="Arugula" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tR6-AD-fGY" customClass="SwipeableCardViewContainer" customModule="Arugula" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTy-w6-5pp" customClass="SwipeableCardViewContainer" customModule="Arugula" customModuleProvider="target">
+                                <rect key="frame" x="70" y="224" width="275" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bny-vo-wQD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="idZ-yX-vHZ"/>
+                    <connections>
+                        <outlet property="swipeableCardView" destination="tTy-w6-5pp" id="qhU-F5-sDn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yvL-6W-TPa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1581.1594202898552" y="64.955357142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="969-SL-C66">
+            <objects>
+                <viewController id="1Dx-sB-nt3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ahm-zg-OeR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bzd-PR-g5a"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x9m-Q2-hUC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="713"/>
         </scene>
     </scenes>
     <resources>
